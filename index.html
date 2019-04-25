@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My currency converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/money.png">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font|Noto+Serif:400,400i,700" rel="stylesheet">
+  </head>
+
+  <body>
+    <main class="screen">
+      <div class="screen__container">
+        <img src="images/balloon.png" alt="Travel balloon" class="screen__image">
+
+        <header class="screen__header">
+          <h1 class="header__large-heading">My simple currency converter</h1>
+          <h2 class="header__small-heading">Easily convert UAH to any available currency</h2>
+        </header>
+
+        <section class="screen__converter">
+          <div class="converter__input">
+            <div class="input__UAH">
+              <input type="text" name="UAH" class="UAH__amount" placeholder="Enter amount">
+              <p class="currency__name currency__name--UAH">UAH</p>
+            </div>
+            <div class="input__currencies">
+              <div class="currency__selector">
+                <input type="radio" name="currency" class="currency__radio">
+                <p class="currency__name">USD</p>
+              </div>
+              <div class="currency__selector">
+                <input type="radio" name="currency" class="converter__radio">
+                <p class="currency__name">EUR</p>
+              </div>
+              <div class="currency__selector">
+                <input type="radio" name="currency" class="converter__radio">
+                <p class="currency__name">GBP</p>
+              </div>
+              <div class="currency__selector">
+                <input type="radio" name="currency" class="converter__radio">
+                <p class="currency__name">CHF</p>
+              </div>
+              <div class="currency__selector">
+                <input type="radio" name="currency" class="converter__radio">
+                <p class="currency__name">JPY</p>
+              </div>
+            </div>
+            <button type="button" name="button" class="input__button">Convert</button>
+          </div>
+
+          <div class="converter__result">
+            <h3 class="result__heading">You will get</h3>
+            <div class="result__field">
+              1000
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
