@@ -22,38 +22,38 @@
         <section class="screen__converter">
           <div class="converter__input">
             <div class="input__UAH">
-              <input type="text" name="UAH" class="UAH__amount" placeholder="Enter amount">
+              <input type="text" name="UAH" class="UAH__amount" placeholder="Enter amount" id="amount">
               <p class="currency__name currency__name--UAH">UAH</p>
             </div>
             <div class="input__currencies">
               <div class="currency__selector">
-                <input type="radio" name="currency" class="currency__radio">
-                <p class="currency__name">USD</p>
+                <input type="radio" name="currency" class="currency__radio" value="0.03756" data-text="USD" id="USD">
+                <label for="USD" class="currency__name">USD</label>
               </div>
               <div class="currency__selector">
-                <input type="radio" name="currency" class="converter__radio">
-                <p class="currency__name">EUR</p>
+                <input type="radio" name="currency" class="currency__radio" value="0.03373" data-text="EUR" id="EUR">
+                <label for="EUR" class="currency__name">EUR</label>
               </div>
               <div class="currency__selector">
-                <input type="radio" name="currency" class="converter__radio">
-                <p class="currency__name">GBP</p>
+                <input type="radio" name="currency" class="currency__radio" value="0.02912" data-text="GBP" id="GBP">
+                <label for="GBP" class="currency__name">GBP</label>
               </div>
               <div class="currency__selector">
-                <input type="radio" name="currency" class="converter__radio">
-                <p class="currency__name">CHF</p>
+                <input type="radio" name="currency" class="currency__radio" value="0.03832" data-text="CHF" id="CHF">
+                <label for="CHF" class="currency__name">CHF</label>
               </div>
               <div class="currency__selector">
-                <input type="radio" name="currency" class="converter__radio">
-                <p class="currency__name">JPY</p>
+                <input type="radio" name="currency" class="currency__radio" value="4.19132" data-text="JPY" id="JPY">
+                <label for="JPY" class="currency__name">JPY</label>
               </div>
             </div>
-            <button type="button" name="button" class="input__button">Convert</button>
+            <button type="button" name="button" class="input__button" id="convert-button">Convert</button>
           </div>
 
           <div class="converter__result">
             <h3 class="result__heading">You will get:</h3>
-            <div class="result__field">
-              1000 UAH
+            <div class="result__field" id="convertation-result">
+
             </div>
           </div>
         </section>
