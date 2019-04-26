@@ -71,6 +71,7 @@ input, button {
       background-color: rgba(255, 255, 255, 0.7);
       border-radius: 15px;
       border: 4px dashed rgba(0, 0, 0, 0.8);
+      margin-bottom: 30px;
       .input__UAH {
         box-sizing: border-box;
         padding: 0 5px;
@@ -151,6 +152,21 @@ input, button {
         }
       }
     }
+    .converter__result {
+      padding: 15px;
+      background-color: rgba(14, 64, 45, 0.8);
+      border-radius: 15px;
+      border: 4px dashed rgba(255, 255, 255, 0.9);
+      .result__heading {
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.8);
+        letter-spacing: .18em;
+      }
+      .result__field {
+        font-size: 22px;
+        font-style: italic;
+        color: #ECAFB6;
+      }
+    }
   }
-  // .converter__result
 }

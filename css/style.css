@@ -72,6 +72,7 @@ input, button {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 15px;
   border: 4px dashed rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
 }
 .screen__converter .converter__input .input__UAH {
   box-sizing: border-box;
@@ -152,6 +153,22 @@ input, button {
 }
 .screen__converter .converter__input .input__button:hover {
   background-color: #C25383;
+}
+.screen__converter .converter__result {
+  padding: 15px;
+  background-color: rgba(14, 64, 45, 0.8);
+  border-radius: 15px;
+  border: 4px dashed rgba(255, 255, 255, 0.9);
+}
+.screen__converter .converter__result .result__heading {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.18em;
+}
+.screen__converter .converter__result .result__field {
+  font-size: 22px;
+  font-style: italic;
+  color: #ECAFB6;
 }
 
 /*# sourceMappingURL=style.css.map */
